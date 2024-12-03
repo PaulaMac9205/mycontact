@@ -1,0 +1,177 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/crescentlake.jpeg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+	
+}
+
+.center {
+    width: 100%;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(42, 53, 31, .5); /*this uses opacity of 50% for the background color*/
+	text-align: center;
+}
+
+#logo{
+	width: 33%;
+	min-width: 200px;
+	margin-top: 10%;
+	margin-bottom: 16px;
+	text-align: center;
+/*------beginning of fade in code-----*/
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn{
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+/* ------end of fade in code------*/
+h1 {
+	font-family: "rothwood", serif;
+	font-weight: 100;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	font-family: "rothwood", serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: "rothwood", serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+nav{
+	font-family: "rothwood", serif;
+	font-size: 1.2em;
+	width: 400px;
+	color:#fff;
+	margin-top: 2%;
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+navli{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+a:hover{
+	color: rgba(42, 53, 31);
+	background: rgb(255, 192, 91);
+}
+    
+    
+
